@@ -1,3 +1,4 @@
+# gageswenson.net nginx server configuration
 # 21 January 2022
 
 upstream app_gageswenson {
@@ -11,6 +12,12 @@ server {
     server_name gageswenson.net www.gageswenson.net;
     access_log /var/log/nginx/gageswenson.net.log;
 
+    # deny access to forbidden file extentions
+    location ~* \.(pem|secret)$ {
+        deny all;
+    }
+
+    # reroute to node app
     location / {
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -23,10 +30,14 @@ server {
         proxy_intercept_errors on;
         error_page 404 = @fallback;
     }
+
+    # serve static images
     location /img {
         alias /home/ubuntu/gageswenson.net/src/img;
         try_files $uri $uri/ =404;
     }
+
+    # public & 404 fallback from node app
     location @fallback {
         root /home/ubuntu/gageswenson.net/src/public;
         try_files $uri $uri/ =404;
