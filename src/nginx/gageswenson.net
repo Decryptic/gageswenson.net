@@ -1,0 +1,34 @@
+# 21 January 2022
+
+upstream app_gageswenson {
+    server 127.0.0.1:3000;
+    keepalive 8;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name gageswenson.net www.gageswenson.net;
+    access_log /var/log/nginx/gageswenson.net.log;
+
+    location / {
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Host $http_host;
+        proxy_set_header X-NginX-Proxy true;
+
+        proxy_pass http://app_gageswenson/;
+        proxy_redirect off;
+
+        proxy_intercept_errors on;
+        error_page 404 = @fallback;
+    }
+    location /img {
+        alias /home/ubuntu/gageswenson.net/src/img;
+        try_files $uri $uri/ =404;
+    }
+    location @fallback {
+        root /home/ubuntu/gageswenson.net/src/public;
+        try_files $uri $uri/ =404;
+    }
+ }
