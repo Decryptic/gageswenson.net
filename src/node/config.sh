@@ -3,7 +3,7 @@ sudo apt install node npm
 
 # install dependencies
 npm init -y
-npm install express --save
+npm install express sprightly --save
 
 # set up pm2 to enable app as a service
 sudo npm install pm2@latest -g

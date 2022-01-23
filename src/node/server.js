@@ -1,20 +1,17 @@
-const express = require('express');
-const path = require('path');
+const express   = require('express');
+const sprightly = require('sprightly');
+const path      = require('path');
+
+const port      = 3000;
+const html_path = path.join(__dirname, '../html');
 
 const app = express();
-const router = express.Router();
 
-const port = 3000;
-const html_path = __dirname + '/../html';
-// configured nginx to handle static content
-//const img_path  = __dirname + '/../img';
-
-router.get('/', function (req, res) {
-	res.sendFile(path.join(html_path + '/index.html'));
+app.get('/', function (_, res) {
+	res.render('index.spy', { title: "Gage's Website Yo" });
 });
 
-app.use('/', router);
-//app.use('/img', express.static(img_path));
-app.listen(process.env.port || port);
-
-console.log('Running at Port ' + port);
+app.engine('spy', sprightly);
+app.set('views', html_path);
+app.set('view engine', 'spy');
+app.listen(port, console.log('running at port' + port));

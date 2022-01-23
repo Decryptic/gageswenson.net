@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ title }}</title>
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    </head>
+
+    <body>
+        <center>
+            <h2>hello, world</h2>
+            <img src="/img/scuba.jpg" alt="Scuba", width="600">
+        </center>
+    </body>
+</html>
