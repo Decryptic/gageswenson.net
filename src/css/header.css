@@ -1,16 +1,9 @@
-nav.nav {
-    margin-bottom: 60px;
-}
-
 ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #0000A0;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 li.nav {

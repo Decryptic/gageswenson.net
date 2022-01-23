@@ -9,7 +9,5 @@
             << partials/header >>
         </header>
         << blogs/2022-01-23 >>
-        <footer>
-        </footer>
     </body>
 </html>

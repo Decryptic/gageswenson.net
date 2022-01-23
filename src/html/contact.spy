@@ -8,10 +8,27 @@
         <header>
             << partials/header >>
         </header>
-        <center>
-            <h2>goodbye, world</h2>
-        </center>
-        <footer>
-        </footer>
+        <div id="container">
+            <div id="info">
+                <p>Email: <a href="mailto: gageswenson@gmail.com">gageswenson@gmail.com</a></p>
+                <p>Text or call: <a href="tel:+1808-756-6350">+1 (808) 756-6350</a></p>
+                <p>Write a letter:</p>
+                <address>
+                    Gage Swenson<br>
+                    PO Box 1211<br>
+                    Kailua-Kona, HI 96745<br>
+                    USA
+                </address>
+                <p>Find me on <a href="https://github.com/decryptic">GitHub</a>. Add me on <a href="https://www.facebook.com/gage.swenson.3/">Facebook</a>. Check me out on <a href="https://www.linkedin.com/in/gageswenson/">LinkedIn</a>.</p>
+            </div>
+            <div id="social">
+                <a href="https://www.facebook.com/gage.swenson.3/"><img src="/img/social/facebook.png"></a>
+                <a href="https://www.instagram.com/cofcgage/"><img src="/img/social/instagram.png"></a>
+                <a href="https://twitter.com/GageSwenson"><img src="/img/social/twitter.png"></a>
+                <a href="https://www.linkedin.com/in/gageswenson/"><img src="/img/social/linkedin.png"></a>
+                <a href="mailto: gageswenson@gmail.com"><img src="/img/social/gmail.png"></a>
+                <a href="https://github.com/decryptic"><img src="/img/social/github.png"></a>
+            </div>
+        </div>
     </body>
 </html>
