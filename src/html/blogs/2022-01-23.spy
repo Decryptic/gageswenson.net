@@ -1,0 +1,25 @@
+<div class="post">
+<h1>First post</h1>
+<h2>23 January 2022</h2>
+<div class="block">
+<div class="left">
+<div class="left_text">
+<p>This is the first blog post on my website.</p>
+<p>On this website you will find my random, spontaneous, innermost thoughts, on display for the world to see. But I would be shocked if anyone actually sees them. The fact that you are reading this right now mires me.</p>
+<p>I will be using this website to keep track of and share my thoughts and files. Also, in the future, I will be using this server as an API endpoint for any future apps I choose to write.</p>
+<p>If you would like to get in touch, you can contact me <a href="/contact">here</a>.</p>
+<p>On the right, you will see a picture of a llama. Below, you will find a picture of a goat.</p>
+</div>
+</div>
+<div class="right">
+<img src="/img/llama.jpg" width="300">
+</div>
+</div>
+<div class="center">
+<img src="/img/goat.jpg" width="600">
+</div>
+<div class="center_text">
+<p>And here is some more text.</p>
+<p>Thank you for reading.</p>
+</div>
+</div>

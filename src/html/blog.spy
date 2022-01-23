@@ -8,9 +8,7 @@
         <header>
             << partials/header >>
         </header>
-        <center>
-            <h2>hello, world</h2>
-        </center>
+        << blogs/2022-01-23 >>
         <footer>
         </footer>
     </body>
