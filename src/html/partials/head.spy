@@ -1,0 +1,8 @@
+<title>{{ title }}</title>
+<link rel="icon" type="image/x-icon" href="/img/favicon/{{ favicon }}">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/header.css">
+<link rel="stylesheet" href="/css/{{ stylesheet }}">
+<script src="/js/main.js"></script>
+<script src="/js/{{ script }}"></script>
+<meta charset="UTF-8">

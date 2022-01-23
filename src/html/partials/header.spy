@@ -1,0 +1,7 @@
+<nav class="nav">
+    <ul class="nav">
+        <li class="nav"><a id="{{ home }}" class="nav" href="/">Home</a></li>
+        <li class="nav"><a id="{{ blog }}" class="nav" href="/blog">Blog</a></li>
+        <li class="nav"><a id="{{ contact }}" class="nav" href="/contact">Contact</a></li>
+    </ul>
+</nav>

@@ -37,6 +37,18 @@ server {
         try_files $uri $uri/ =404;
     }
 
+    # serve scripts
+    location /js {
+        alias /home/ubuntu/gageswenson.net/src/js;
+        try_files $uri $uri/ =404;
+    }
+
+    # serve stylesheets
+    location /css {
+        alias /home/ubuntu/gageswenson.net/src/css;
+        try_files $uri $uri/ =404;
+    }
+
     # public & 404 fallback from node app
     location @fallback {
         root /home/ubuntu/gageswenson.net/src/public;

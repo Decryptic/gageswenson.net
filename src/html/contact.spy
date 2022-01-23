@@ -9,10 +9,7 @@
             << partials/header >>
         </header>
         <center>
-            <h2>hello, world</h2>
-            <img src="/img/scuba.jpg" alt="Scuba", width="600">
-            <br>
-            <img src="/img/scuba.jpg" alt="Scuba", width="600">
+            <h2>goodbye, world</h2>
         </center>
         <footer>
         </footer>
