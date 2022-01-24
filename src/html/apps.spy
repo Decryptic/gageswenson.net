@@ -8,9 +8,23 @@
         <header>
             << partials/header >>
         </header>
-        <center>
-            <h2>hello, world</h2>
-            <img src="/img/scuba.jpg" alt="Scuba", width="600">
-        </center>
+        <div class="wrapper">
+            <div class="container">
+                <div class="left">
+                    <p>Here are a few JavaScript apps that I wrote a while back. They've been up on <a href="https://github.com/Decryptic">my GitHub</a> for quite a while, but I finally got around to hosting them. This way you can interact with some of the code I've written, hopefully have some fun and maybe learn a thing or two.</p>
+                    <p>The <a href="/mandelbrot">Mandelbrot Set visualizer</a> is pretty straightforward: I wrote it in vanilla JavaScript. Click on the fractal to zoom in. The app doesn't highlight divergence, or in layman's terms, it doesn't have all the trippy visuals. Only points that lie within the set are depicted in black. To learn more, check out the <a href="https://en.wikipedia.org/wiki/Mandelbrot_set">Wikipedia article</a> on the Mandelbrot set. I was able to take that article and, with my JavaScript know-how, create <a href="https://github.com/Decryptic/MandelbrotSet/">this GitHub repository</a>. Be sure to check it out. I would love to hear your feedback, questions, comments, critiques, or criticisms.</p>
+                    <!--<p><a href="/pong">Pong</a> is exactly what it sounds like. Virtual ping pong. It's player versus player; there's no computer opponent. The red player moves with the A and D keys, the blue player moves with the left and right arrow keys. It's not very exciting, but hey, I wrote it from scratch just for fun, so it belongs here.</p>-->
+                    <p><a href="/brick_breaker">Brick Breaker</a> is that popular game where you paddle the ball around a cell and break bricks. It's pretty straightforward, although it is incomplete. I wrote this to get more familiar with <a href="https://en.wikipedia.org/wiki/Node.js">node code</a> back in 2019 and never got around to finishing it. It only loads level_0, there's no menu and no penalty if the ball misses your paddle and bounces off the bottom. Collision detection needs work. I dug this up looking for things I could add to this list of apps, and since it runs, it made the cut.</p>
+                </div>
+                <div class="right">
+                    <div class="right_links">
+                        <ul>
+                            <li><a href="/mandelbrot">Mandelbrot Set</a></li>
+                            <li><a href="/brick_breaker">Brick Breaker</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

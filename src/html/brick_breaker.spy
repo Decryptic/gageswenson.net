@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        << partials/head >>
+        <style>
+            #gameScreen {
+                border: 2px solid black;
+                margin-top: 5px;
+            }
+            
+            img {
+                display: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            << partials/header >>
+        </header>
+        <center>
+            <canvas id="gameScreen" width="800" height="600"></canvas>
+        </center>
+        <script src="/js/brick_breaker/collisionDetection.js"></script>
+        <script src="/js/brick_breaker/ball.js"></script>
+        <script src="/js/brick_breaker/block.js"></script>
+        <script src="/js/brick_breaker/paddle.js"></script>
+        <script src="/js/brick_breaker/input.js"></script>
+        <script src="/js/brick_breaker/levels.js"></script>
+        <script src="/js/brick_breaker/game.js"></script>
+        <script src="/js/brick_breaker/index.js"></script>
+    </body>
+</html>

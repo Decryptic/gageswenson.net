@@ -47,6 +47,23 @@ app.get('/apps', function(_, res) {
     });
 });
 
+app.get('/mandelbrot', function(_, res) {
+    res.render('mandelbrot.spy', {
+        title:      'Mandelbrot Set',
+        favicon:    'apps_favicon.ico',
+        script:     'mandelbrot.js',
+        apps:       'active',
+    });
+});
+
+app.get('/brick_breaker', function(_, res) {
+    res.render('brick_breaker.spy', {
+        title:      'Brick Breaker',
+        favicon:    'apps_favicon.ico',
+        apps:       'active',
+    });
+});
+
 app.engine('spy', sprightly);
 app.set('views', html_d);
 app.set('view engine', 'spy');
