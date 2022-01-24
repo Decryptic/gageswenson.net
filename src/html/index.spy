@@ -8,14 +8,9 @@
         <header>
             << partials/header >>
         </header>
-        <canvas id="gameScreen" width="800" height="600"></canvas>
-        <script src="/js/pong/collisionDetection.mjs"></script>
-        <script src="/js/pong/ball.mjs"></script>
-        <script src="/js/pong/block.mjs"></script>
-        <script src="/js/pong/paddle.mjs"></script>
-        <script src="/js/pong/input.mjs"></script>
-        <script src="/js/pong/levels.mjs"></script>
-        <script src="/js/pong/game.mjs"></script>
-        <script src="/js/pong/index.js"></script>
+        <center>
+            <h2>hello, world</h2>
+            <img src="/img/scuba.jpg" alt="Scuba", width="600">
+        </center>
     </body>
 </html>
