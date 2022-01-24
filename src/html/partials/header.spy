@@ -1,7 +1,32 @@
 <nav class="nav">
     <ul class="nav">
-        <li class="nav"><a id="{{ home }}" class="nav" href="/">Home</a></li>
-        <li class="nav"><a id="{{ blog }}" class="nav" href="/blog">Blog</a></li>
-        <li class="nav"><a id="{{ contact }}" class="nav" href="/contact">Contact</a></li>
+        <li class="nav"><a
+            onmouseenter="nav_m_e(this)"
+            onmouseleave="nav_m_l(this)"
+            onmouseup="nav_m_u()"
+            id="{{ home }}"
+            href="/">Home</a>
+        </li>
+        <li class="nav"><a
+            onmouseenter="nav_m_e(this)"
+            onmouseleave="nav_m_l(this)"
+            onmouseup="nav_m_u(this)"
+            id="{{ blog }}" href="/blog">Blog</a>
+        </li>
+        <li class="nav"><a
+            onmouseenter="nav_m_e(this)"
+            onmouseleave="nav_m_l(this)"
+            onmouseup="nav_m_u(this)"
+            id="{{ contact }}"
+            href="/contact">Contact</a>
+        </li>
+        <li class="nav"><a
+            onmouseenter="nav_m_e(this)"
+            onmouseleave="nav_m_l(this)"
+            onmouseup="nav_m_u(this)"
+            id="{{ apps }}"
+            href="/apps">Apps</a>
+        </li>
     </ul>
 </nav>
+<script src="/js/header.js"></script>

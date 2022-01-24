@@ -33,7 +33,17 @@ app.get('/contact', function (_, res) {
         favicon:    'contact_favicon.ico',
         script:     'contact.js',
         stylesheet: 'contact.css',
-        contact:  'active',
+        contact:    'active',
+    });
+});
+
+app.get('/apps', function(_, res) {
+    res.render('apps.spy', {
+        title:      "Gage's Apps",
+        favicon:    'apps_favicon.ico',
+        script:     'apps.js',
+        stylesheet: 'apps.css',
+        apps:       'active',
     });
 });
 

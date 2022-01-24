@@ -8,17 +8,24 @@ ul.nav {
 
 li.nav {
     float: left;
-    border-right: 1px solid white;
+    margin-bottom: -2px;
+    padding: 0;
+}
+
+li.nav:last-child, li.nav:nth-last-child(2) {
+    box-shadow: none;
 }
 
 li.nav:last-child {
-    border-right: none;
+    float: right;
+    border-left: 1px solid white;
 }
 
-li a.nav {
-    display: block;
+li.nav a {
+    display: inline-block;
     color: white;
     text-align: center;
+    margin: 0;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 18px;
