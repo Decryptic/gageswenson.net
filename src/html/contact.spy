@@ -23,7 +23,7 @@
                 <a href="https://www.instagram.com/cofcgage/"><img src="/img/social/instagram.png"></a>
                 <a href="https://twitter.com/GageSwenson"><img src="/img/social/twitter.png"></a>
                 <a href="https://www.linkedin.com/in/gageswenson/"><img src="/img/social/linkedin.png"></a>
-                <a href="mailto: gageswenson@gmail.com"><img src="/img/social/gmail.png"></a>
+                <a href="#" onclick="reveal_gmail(this);"><img src="/img/social/gmail.png"></a>
                 <a href="https://github.com/decryptic"><img src="/img/social/github.png"></a>
             </div>
         </div>

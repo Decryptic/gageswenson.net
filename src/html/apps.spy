@@ -17,12 +17,10 @@
                     <p><a href="/brick_breaker">Brick Breaker</a> is that popular game where you paddle the ball around a cell and break bricks. It's pretty straightforward, although it is incomplete. I wrote this to get more familiar with <a href="https://en.wikipedia.org/wiki/Node.js">node code</a> back in 2019 and never got around to finishing it. It only loads level_0, there's no menu and no penalty if the ball misses your paddle and bounces off the bottom. Collision detection needs work. I dug this up looking for things I could add to this list of apps, and since it runs, it made the cut.</p>
                 </div>
                 <div class="right">
-                    <div class="right_links">
-                        <ul>
-                            <li><a href="/mandelbrot">Mandelbrot Set</a></li>
-                            <li><a href="/brick_breaker">Brick Breaker</li>
-                        </ul>
-                    </div>
+                    <ul>
+                        <li><a href="/mandelbrot">Mandelbrot Set</a></li>
+                        <li><a href="/brick_breaker">Brick Breaker</li>
+                    </ul>
                 </div>
             </div>
         </div>

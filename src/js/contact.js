@@ -20,11 +20,18 @@ const deobfuscate = function(arr) {
     return result;
 };
 
+const email = deobfuscate(obs_email);
+const email_href = 'mailto: ' + email;
+
+const reveal_gmail = function(elem) {
+    elem.onclick = null;
+    elem.href = email_href;
+};
+
 const reveal_email = function(elem) {
     elem.onclick = null;
-    const email = deobfuscate(obs_email);
     elem.innerHTML = email;
-    elem.href = 'mailto: ' + email;
+    elem.href = email_href;
     elem.classList.remove(rev_cl);
 };
 
