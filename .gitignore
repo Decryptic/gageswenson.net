@@ -1,14 +1,15 @@
 # Ignore private directory
 priv/*
 
-# Ignore private keys
+# Ignore private keys and secret files
 *.pem
+*.secret
 
 # Ignore node modules
 node_modules
 
-# Ignore node package_lock
-package_lock.json
+# Ignore node package-lock
+package-lock.json
 
 # Ignore Mac cache files
 .DS_store
