@@ -29,5 +29,6 @@
         <script src="/js/brick_breaker/levels.js"></script>
         <script src="/js/brick_breaker/game.js"></script>
         <script src="/js/brick_breaker/index.js"></script>
+        << partials/scripts >>
     </body>
 </html>

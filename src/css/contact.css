@@ -17,3 +17,7 @@
 #social {
     flex: 0 0 auto;
 }
+
+.reveal {
+    font-style: italic;
+}

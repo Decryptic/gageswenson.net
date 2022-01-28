@@ -1,22 +1,22 @@
 <nav class="nav">
     <ul class="nav">
         <li class="nav"><a
-            onmouseenter="nav_m_e(this)"
-            onmouseleave="nav_m_l(this)"
-            onmouseup="nav_m_u()"
+            onmouseenter="nav_m_e(this);"
+            onmouseleave="nav_m_l(this);"
+            onmouseup="nav_m_u();"
             id="{{ home }}"
             href="/">Home</a>
         </li>
         <li class="nav"><a
-            onmouseenter="nav_m_e(this)"
-            onmouseleave="nav_m_l(this)"
-            onmouseup="nav_m_u(this)"
+            onmouseenter="nav_m_e(this);"
+            onmouseleave="nav_m_l(this);"
+            onmouseup="nav_m_u();"
             id="{{ blog }}" href="/blog">Blog</a>
         </li>
         <li class="nav"><a
-            onmouseenter="nav_m_e(this)"
-            onmouseleave="nav_m_l(this)"
-            onmouseup="nav_m_u(this)"
+            onmouseenter="nav_m_e(this);"
+            onmouseleave="nav_m_l(this);"
+            onmouseup="nav_m_u();"
             id="{{ contact }}"
             href="/contact">Contact</a>
         </li>

@@ -12,5 +12,6 @@
             <h2>hello, world</h2>
             <img src="/img/scuba.jpg" alt="Scuba", width="600">
         </center>
+        << partials/scripts >>
     </body>
 </html>

@@ -10,14 +10,11 @@
         </header>
         <div id="container">
             <div id="info">
-                <p>Email: <a href="mailto: gageswenson@gmail.com">gageswenson@gmail.com</a></p>
-                <p>Text or call: <a href="tel:+1808-756-6350">+1 (808) 756-6350</a></p>
+                <p>Email: <a class="reveal" onclick="reveal_email(this); return false;" href="#">click to reveal</a></p>
+                <p>Text or call: <a class="reveal" onclick="reveal_phone(this); return false;" href="#">click to reveal</a></p>
                 <p>Write a letter:</p>
-                <address>
-                    Gage Swenson<br>
-                    PO Box 1211<br>
-                    Kailua-Kona, HI 96745<br>
-                    USA
+                    <a class="reveal" onclick="reveal_address(this); return false;" href="#">click to reveal</a>
+                <address id="address">
                 </address>
                 <p>Find me on <a href="https://github.com/decryptic">GitHub</a>. Add me on <a href="https://www.facebook.com/gage.swenson.3/">Facebook</a>. Check me out on <a href="https://www.linkedin.com/in/gageswenson/">LinkedIn</a>.</p>
             </div>
@@ -30,5 +27,6 @@
                 <a href="https://github.com/decryptic"><img src="/img/social/github.png"></a>
             </div>
         </div>
+        << partials/scripts >>
     </body>
 </html>

@@ -1,1 +1,41 @@
+var address = document.getElementById('address');
+var rev_cl = 'reveal'; // reveal class
 
+var obs_email, obs_phone, obs_phone_href, obs_address;
+obs_email = ['gag', 'esw', 'ens', 'on@', 'gma', 'il.', 'com'];
+obs_phone_href = ['+18', '08-', '756', '-63', '50'];
+obs_phone = ['+1 ', '(80', '8) ', '756', '-63', '50'];
+obs_address = [
+    'Gag', 'e S', 'wen', 'son', '<br>',
+    'PO ', 'Box', ' 12', '11<', 'br>',
+    'Kai', 'lua', '-Ko', 'na,', ' HI', ' 96', '745', '<br>',
+    'USA',
+];
+
+const deobfuscate = function(arr) {
+    var result = '';
+    for (var i = 0; i < arr.length; i++) {
+        result += arr[i];
+    }
+    return result;
+};
+
+const reveal_email = function(elem) {
+    elem.onclick = null;
+    const email = deobfuscate(obs_email);
+    elem.innerHTML = email;
+    elem.href = 'mailto: ' + email;
+    elem.classList.remove(rev_cl);
+};
+
+const reveal_phone = function(elem) {
+    elem.onclick = null;
+    elem.innerHTML = deobfuscate(obs_phone);
+    elem.href = 'tel: ' + deobfuscate(obs_phone_href);
+    elem.classList.remove(rev_cl);
+};
+
+const reveal_address = function(elem) {
+    elem.remove();
+    address.innerHTML = deobfuscate(obs_address);
+};
