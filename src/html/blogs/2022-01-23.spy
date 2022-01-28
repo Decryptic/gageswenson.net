@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/css/blogs/2022-01-23.css">
 <div class="post">
 <h1>First post</h1>
 <h2>23 January 2022</h2>
@@ -12,11 +13,11 @@
 </div>
 </div>
 <div class="right">
-<img src="/img/llama.jpg" width="300">
+<img src="/img/llama.jpg">
 </div>
 </div>
 <div class="center">
-<img src="/img/goat.jpg" width="600">
+<img src="/img/goat.jpg">
 </div>
 <div class="center_text">
 <p>And here is some more text.</p>
