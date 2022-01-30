@@ -1,0 +1,15 @@
+#container {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#info {
+    margin-bottom: 30px;
+    flex: 0 0 auto;
+    text-align: center;
+    padding: 80px;
+    background-color: #E0E0E0;
+}

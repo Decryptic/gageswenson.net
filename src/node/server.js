@@ -47,8 +47,17 @@ app.get('/apps', function(_, res) {
     });
 });
 
+app.get('/apps/privacy', function(_, res) {
+    res.render('privacy.spy', {
+        title:      'Privacy Policy',
+        favicon:    'apps_favicon.ico',
+        stylesheet: 'privacy.css',
+        apps:       'active',
+    });
+});
+
 app.get('/mandelbrot', function(_, res) {
-    res.render('mandelbrot.spy', {
+    res.render('apps/mandelbrot.spy', {
         title:      'Mandelbrot Set',
         favicon:    'apps_favicon.ico',
         script:     'mandelbrot.js',
@@ -57,8 +66,16 @@ app.get('/mandelbrot', function(_, res) {
 });
 
 app.get('/brick_breaker', function(_, res) {
-    res.render('brick_breaker.spy', {
+    res.render('apps/brick_breaker.spy', {
         title:      'Brick Breaker',
+        favicon:    'apps_favicon.ico',
+        apps:       'active',
+    });
+});
+
+app.get('/date_countdown', function(_, res) {
+    res.render('apps/date_countdown.spy', {
+        title:      'Date Countdown',
         favicon:    'apps_favicon.ico',
         apps:       'active',
     });
