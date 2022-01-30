@@ -48,27 +48,40 @@ app.get('/apps', function(_, res) {
 });
 
 app.get('/apps/privacy', function(_, res) {
-    res.render('privacy.spy', {
+    res.render('apps/privacy.spy', {
         title:      'Privacy Policy',
         favicon:    'apps_favicon.ico',
-        stylesheet: 'privacy.css',
+        stylesheet: 'apps/privacy.css',
         apps:       'active',
     });
 });
 
-app.get('/mandelbrot', function(_, res) {
+app.get('/apps/date_countdown', function(_, res) {
+    res.render('apps/date_countdown.spy', {
+        title:      'Date Countdown',
+        favicon:    'apps_favicon.ico',
+        script:     'apps/date_countdown.js',
+        stylesheet: 'apps/date_countdown.css',
+        apps:       'active',
+    });
+});
+
+app.get('/apps/mandelbrot', function(_, res) {
     res.render('apps/mandelbrot.spy', {
         title:      'Mandelbrot Set',
         favicon:    'apps_favicon.ico',
-        script:     'mandelbrot.js',
+        script:     'apps/mandelbrot.js',
+        stylesheet: 'apps/mandelbrot.css',
         apps:       'active',
     });
 });
 
-app.get('/brick_breaker', function(_, res) {
+app.get('/apps/brick_breaker', function(_, res) {
     res.render('apps/brick_breaker.spy', {
         title:      'Brick Breaker',
         favicon:    'apps_favicon.ico',
+        script:     'apps/brick_breaker/brick_breaker.js',
+        stylesheet: 'apps/brick_breaker.css',
         apps:       'active',
     });
 });

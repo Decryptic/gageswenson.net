@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        << partials/head >>
+    </head>
+
+    <body>
+        <header>
+            << partials/header >>
+        </header>
+        <div id="container">
+            <div id="info">
+                <p>My apps don't collect or sell your data.</p>
+            </div>
+        </div>
+        << partials/scripts >>
+    </body>
+</html>

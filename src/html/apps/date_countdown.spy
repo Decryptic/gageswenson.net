@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        << partials/head >>
+    </head>
+
+    <body>
+        <header>
+            << partials/header >>
+        </header>
+        <div id="container">
+            <div id="info">
+                <p>Date Countdown is an app that tells you how many days until, or since, a given date. It's currently "in review" on the Google Play store, but you can <a href="/date_countdown.apk">download it directly</a> and run it on your Android phone in the meantime. Below are a couple screenshots of the app. I took those screenshots on January 30, 2022.</p>
+                <div>
+                    <img src="/img/date_countdown/days_until.png" width="300">
+                    <img src="/img/date_countdown/days_since.png" width="300">
+                </div>
+            </div>
+        </div>
+        << partials/scripts >>
+    </body>
+</html>

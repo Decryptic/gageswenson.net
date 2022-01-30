@@ -9,7 +9,7 @@
             << partials/header >>
         </header>
         <center>
-            <canvas style="border: 1px dotted black; margin: 5px;"id="screen" width="1200" height="600"></canvas>
+            <canvas id="screen" width="1200" height="600"></canvas>
         </center>
     << partials/scripts >>
     </body>
