@@ -1,4 +1,7 @@
-img {
-    padding: 10px;
-    width: 30%;
+.center {
+    margin-top: 50px;
+}
+
+.center_img {
+    flex: 4;
 }
