@@ -86,14 +86,6 @@ app.get('/apps/brick_breaker', function(_, res) {
     });
 });
 
-app.get('/date_countdown', function(_, res) {
-    res.render('apps/date_countdown.spy', {
-        title:      'Date Countdown',
-        favicon:    'apps_favicon.ico',
-        apps:       'active',
-    });
-});
-
 app.engine('spy', sprightly);
 app.set('views', html_d);
 app.set('view engine', 'spy');
