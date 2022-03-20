@@ -1,4 +1,4 @@
 # gageswenson.net
 My own personal website.
 
-<img src="src/img/v1.png" width="800">
+<img src="src/img/v2.png" width="800">
