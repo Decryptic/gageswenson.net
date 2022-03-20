@@ -10,6 +10,7 @@ li.nav {
     float: left;
     margin-bottom: -2px;
     padding: 0;
+    text-align: center;
 }
 
 li.nav:last-child, li.nav:nth-last-child(2) {

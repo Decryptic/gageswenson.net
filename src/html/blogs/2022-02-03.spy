@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="/css/blogs/2022-02-03.css">
 <div class="post">
-<h1>Date Countdown</h1>
-<h2>3 February 2022</h2>
-<p>My latest app, called <a href="/apps/date_countdown">Date Countdown</a>, became available on the <a href="https://play.google.com/store/apps/details?id=net.gageswenson.date_countdown">Google Play Store</a> today.</p>
+    <h1>Date Countdown</h1>
+    <h2>3 February 2022</h2>
+        <p>My latest app, called <a href="/apps/date_countdown">Date Countdown</a>, became available on the <a href="https://play.google.com/store/apps/details?id=net.gageswenson.date_countdown">Google Play Store</a> today.</p>
 </div>
