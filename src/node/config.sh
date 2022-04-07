@@ -1,5 +1,5 @@
 # install node and npm
-sudo apt install node npm
+sudo apt install nodejs npm
 
 # install dependencies
 npm init -y
