@@ -13,7 +13,7 @@ server {
     access_log /var/log/nginx/gageswenson.net.log;
 
     # deny access to forbidden file extentions
-    location ~* \.(pem|secret)$ {
+    location ~* \.(pem|priv|private|secret)$ {
         deny all;
     }
 
