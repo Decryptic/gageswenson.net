@@ -3,6 +3,8 @@ priv/*
 
 # Ignore private keys and secret files
 *.pem
+*.priv
+*.private
 *.secret
 
 # Ignore node modules
