@@ -1,0 +1,35 @@
+# this file documents configuring a new host instance
+
+# first, tunnel in as root
+
+ssh root@gageswenson.net
+
+# log in with password. then create a new user
+
+adduser ubuntu
+
+# follow the prompt, create a passwd, skip optionals
+
+# disable ssh password authentication
+
+rm /etc/ssh/sshd_config
+cp ./sshd_config /etc/ssh/
+
+# add public key to authorized keys
+
+mkdir /home/ubuntu/.ssh
+cat ./gageswenson.pub >> /home/ubuntu/.ssh/authorized_keys
+
+# restart ssh to affect changes
+
+systemctl restart ssh
+
+# add user to sudoers
+
+usermod -aG sudo ubuntu
+
+# you should now be able to connect to your instance with
+
+exit
+chmod 600 gageswenson.pem
+ssh -i gageswenson.pem ubuntu@gageswenson.net
