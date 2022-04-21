@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="/css/blogs/2022-04-20.css">
+<div class="post">
+    <h1>Moved to Oahu</h1>
+    <h2>20 April 2022</h2>
+    <div class="block">
+        <div class="left">
+            <p>On 8 February 2022, I moved from the Big Island of Hawaii to Oahu. When I first moved to Hawaii, I thought the Big Island would be less intimidating than the big city, but in fact it was the opposite. Oahu is much easier to navigate, and it is much easier for me to make friends and find like-minded people here. The Big Island is great for adventures, but I chose to move here to continue my education at the University of Hawaii.</p>
+            <p>I met a charming woman named Haley the day before my birthday. She gave me a haircut at the salon she works at in Waipahu. She invited me over to her house on my birthday, April 14th, and she showed me her backyard garden. She also has a Flower Horn fish, named Gilbert, and we cleaned his fish tank. I hope this page will feature more of us in the future.</p>
+            <p>Also pictured below is my current Facebook profile picture, taken from a Banyan tree that I climbed at Kapi'olani Park in downtown Honolulu. These trees are magificent. They appear to drop chutes down their branches to support even broader growth. I had fun climbing them. Those pictures were taken around 20 feet above the ground.</p>
+        </div>
+        <div class="right">
+            <img src="/img/blogs/2022-04-20/alohaStadium.jpg" width="1200">
+        </div>
+    </div>
+    <div class="center">
+        <div class="center_img">
+            <img src="/img/blogs/2022-04-20/banyanView.jpg">
+        </div>
+        <div class="spacer"></div>
+        <div class="center_img">
+            <img src="/img/blogs/2022-04-20/banyanSelfie.jpg">
+        </div>
+    </div>
+    <div class="center">
+        <div class="center_img">
+            <img src="/img/blogs/2022-04-20/garden.jpg">
+        </div>
+        <div class="spacer"></div>
+        <div class="center_img">
+            <img src="/img/blogs/2022-04-20/gilbert.jpg">
+        </div>
+    </div>
+</div>
