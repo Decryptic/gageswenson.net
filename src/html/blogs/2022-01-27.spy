@@ -10,16 +10,22 @@
             <p>On the right is a picture of a young calf, taken from my upstairs back poarch (lanai) when I lived on Hoene Street a few minutes up the mauka from town. She has a very intimate stare. It looks like she hasn't even been tagged yet. Her ears look like satillite dishes and her gaze is just totally awesome. Can you see it?</p>
         </div>
         <div class="right">
-            <img src="/img/blogs/2022-01-27/calf.jpg" width="1200">
+            <a href="/img/blogs/2022-01-27/calf.jpg">
+                <img src="/img/blogs/2022-01-27/calf.jpg" width="1200">
+            </a>
         </div>
     </div>
     <div class="center">
         <div class="center_img">
-            <img src="/img/blogs/2022-01-27/cruise_ship.jpg">
+            <a href="/img/blogs/2022-01-27/cruise_ship.jpg">
+                <img src="/img/blogs/2022-01-27/cruise_ship.jpg">
+            </a>
         </div>
         <div class="spacer"></div>
         <div class="center_img">
-            <img src="/img/blogs/2022-01-27/js_fish_and_grill.jpg">
+            <a href="/img/blogs/2022-01-27/js_fish_and_grill.jpg">
+                <img src="/img/blogs/2022-01-27/js_fish_and_grill.jpg">
+            </a>
         </div>
     </div>
 </div>

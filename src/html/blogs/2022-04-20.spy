@@ -9,25 +9,35 @@
             <p>Also pictured below is my current Facebook profile picture, taken from a Banyan tree that I climbed at Kapi'olani Park in downtown Honolulu. These trees are magificent. They appear to drop chutes down their branches to support even broader growth. I had fun climbing them. Those pictures were taken around 20 feet above the ground.</p>
         </div>
         <div class="right">
-            <img src="/img/blogs/2022-04-20/loryfel.jpeg" width="1200">
+            <a href="/img/blogs/2022-04-20/loryfel.jpeg">
+                <img src="/img/blogs/2022-04-20/loryfel.jpeg" width="1200">
+            </a>
         </div>
     </div>
     <div class="center">
         <div class="center_img">
-            <img src="/img/blogs/2022-04-20/banyanView.jpg">
+            <a href="/img/blogs/2022-04-20/banyanView.jpg">
+                <img src="/img/blogs/2022-04-20/banyanView.jpg">
+            </a>
         </div>
         <div class="spacer"></div>
         <div class="center_img">
-            <img src="/img/blogs/2022-04-20/banyanSelfie.jpg">
+            <a href="/img/blogs/2022-04-20/banyanSelfie.jpg">
+                <img src="/img/blogs/2022-04-20/banyanSelfie.jpg">
+            </a>
         </div>
     </div>
     <div class="center">
         <div class="center_img">
-            <img src="/img/blogs/2022-04-20/garden.jpg">
+            <a href="/img/blogs/2022-04-20/garden.jpg">
+                <img src="/img/blogs/2022-04-20/garden.jpg">
+            </a>
         </div>
         <div class="spacer"></div>
         <div class="center_img">
-            <img src="/img/blogs/2022-04-20/gilbert.jpg">
+            <a href="/img/blogs/2022-04-20/gilbert.jpg">
+                <img src="/img/blogs/2022-04-20/gilbert.jpg">
+            </a>
         </div>
     </div>
 </div>
