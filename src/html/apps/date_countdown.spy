@@ -10,7 +10,7 @@
         </header>
         <div id="container">
             <div id="info">
-                <p>Date Countdown is an app that tells you how many days until, or since, a given date. You can find it <a href="https://play.google.com/store/apps/details?id=net.gageswenson.date_countdown"> on the Google Play store</a>, or you can <a href="/date_countdown.apk">download it directly</a> and run it on your Android phone. Below are a couple screenshots of the app. I took those screenshots on January 30, 2022.</p>
+                <p>Date Countdown is an app that tells you how many days until, or since, a given date. You can find it <a href="https://play.google.com/store/apps/details?id=net.gageswenson.date_countdown"> on the Google Play store</a>, or you can <a href="/date_countdown_fat.apk">download it directly</a> and run it on your Android phone. Below are a couple screenshots of the app. I took those screenshots on January 30, 2022.</p>
                 <div id="flex">
                     <div class="spacer"></div>
                     <img src="/img/date_countdown/days_until.png" height="500">
