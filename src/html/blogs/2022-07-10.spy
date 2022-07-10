@@ -1,0 +1,7 @@
+<link rel="stylesheet" href="/css/blogs/2022-02-03.css">
+<div class="post">
+    <h1>Apps, apps, apps</h1>
+    <h2>10 July 2022</h2>
+    <p>Recently, I bought a used 2020 13" M1 Macbook Air to build apps for Apple devices. At first I was hesitant because I wasn't sure if this rig was capable enough for development. It turns out this computer is highly capable. I love it; it runs all day and seemlessly multitasks. It far outperforms my Surface Pro 5, which had trouble debugging on an emulator. On that rig, most of my debugging was performed in a Chrome profile.</p>
+    <p>Without further ado, I invite you to check out my two new apps: <a href="/apps/fibs_and_primes">Fibs and Primes</a> and <a href="/apps/card_counting_companion">Card Counting Companion</a>. Also, an honorable mention to <a href="/apps/date_countdown">Date Countdown</a>, which is now available on the App Store.</p>
+</div>

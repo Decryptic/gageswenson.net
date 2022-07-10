@@ -56,6 +56,26 @@ app.get('/apps/privacy', function(_, res) {
     });
 });
 
+app.get('/apps/card_counting_companion', function(_, res) {
+    res.render('apps/card_counting_companion.spy', {
+        title:      'Date Countdown',
+        favicon:    'apps_favicon.ico',
+        script:     'apps/card_counting_companion.js',
+        stylesheet: 'apps/card_counting_companion.css',
+        apps:       'active',
+    });
+});
+
+app.get('/apps/fibs_and_primes', function(_, res) {
+    res.render('apps/fibs_and_primes.spy', {
+        title:      'Fibs and Primes',
+        favicon:    'apps_favicon.ico',
+        script:     'apps/fibs_and_primes.js',
+        stylesheet: 'apps/fibs_and_primes.css',
+        apps:       'active',
+    });
+});
+
 app.get('/apps/date_countdown', function(_, res) {
     res.render('apps/date_countdown.spy', {
         title:      'Date Countdown',
