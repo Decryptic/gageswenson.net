@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        << partials/head >>
+    </head>
+
+    <body>
+        <header>
+            << partials/header >>
+        </header>
+        <div id="container">
+            <div id="info">
+                <p>Baccarat Dealer is an app that deals out hands of Baccarat from a real simulated deck of playing cards. It's perfect for testing a strategy, or running your own table. You can find it <a href="https://apps.apple.com/us/app/baccarat-dealer/id1633924887">on the App Store</a> or <a href="https://play.google.com/store/apps/details?id=net.gageswenson.baccarat_dealer">on the Google Play store</a>. Below are a few screenshots of the app.</p>
+                <div class="flex top-margin">
+                    <div class="spacer"></div>
+                    <img src="/img/apps/baccarat_dealer/000.png" height="500">
+                    <div class="spacer"></div>
+                    <img src="/img/apps/baccarat_dealer/001.png" height="500">
+                    <div class="spacer"></div>
+                    <img src="/img/apps/baccarat_dealer/002.png" height="500">
+                    <div class="spacer"></div>
+                </div>
+            </div>
+            <div class="flex top-margin">
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+                <a href="https://play.google.com/store/apps/details?id=net.gageswenson.baccarat_dealer">
+                    <img src="/img/badges/google_play_badge.png" height="100">
+                </a>
+                <div class="spacer"></div>
+                <a href="https://apps.apple.com/us/app/baccarat-dealer/id1633924887">
+                    <img src="/img/badges/app_store_badge.png" height="100">
+                </a>
+                <div class="spacer"></div>
+                <div class="spacer"></div>
+            </div>
+        </div> 
+        << partials/scripts >>
+    </body>
+</html>

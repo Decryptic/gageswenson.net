@@ -56,6 +56,16 @@ app.get('/apps/privacy', function(_, res) {
     });
 });
 
+app.get('/apps/baccarat_dealer', function(_, res) {
+    res.render('apps/baccarat_dealer.spy', {
+        title:      'Baccarat Dealer',
+        favicon:    'apps_favicon.ico',
+        script:     'apps/baccarat_dealer.js',
+        stylesheet: 'apps/baccarat_dealer.css',
+        apps:       'active',
+    });
+});
+
 app.get('/apps/card_counting_companion', function(_, res) {
     res.render('apps/card_counting_companion.spy', {
         title:      'Date Countdown',
