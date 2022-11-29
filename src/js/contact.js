@@ -6,13 +6,14 @@ obs_email = ['gag', 'esw', 'ens', 'on@', 'gma', 'il.', 'com'];
 obs_phone_href = ['+18', '08-', '756', '-63', '50'];
 obs_phone = ['+1 ', '(80', '8) ', '756', '-63', '50'];
 obs_address = [
-//    'Gag', 'e S', 'wen', 'son', '<br>',
+    'Gag', 'e S', 'wen', 'son', '<br>',
 //    'PO ', 'Box', ' 12', '11<', 'br>',
 //    'Kai', 'lua', '-Ko', 'na,', ' HI', ' 96', '745', '<br>',
 //    'PO ', 'Box', ' 86', '148', '4<b', 'r>',
 //    'Wah', 'iaw', 'a, ', 'HI ', '967', '86<', 'br>',
 //    'USA',
-    '[red', 'acted]',
+    '175', '0 K', 'ala', 'kau', 'a A', 've ', 'uni', 't 1', '807', '<br>',
+    'Hon', 'olu', 'lu,', ' HI', ' 96', '826',
 ];
 
 const deobfuscate = function(arr) {

@@ -9,8 +9,16 @@
             << partials/header >>
         </header>
         <center>
-            <h2>hello, world</h2>
-            <img src="/img/scuba.jpg" alt="Scuba", width="600">
+            <h1>Swenson Computer Solutions LLC</h1>
+            <div class="container">
+                <div class="bgcolor" id="scs-block">
+                    <p>Broken screen? Does your phone need a new battery?</p>
+                    <p>Want to build a custom PC? Need an app built for your business?</p>
+                    <p>Swenson Computer Solutions LLC has you covered.</p>
+                    <p>I can fix phones, build apps, and teach you how to write software.</p>
+                    <p><a href="/contact">Contact me</a> for more information.</p>
+                </div>
+            </div>
         </center>
         << partials/scripts >>
     </body>

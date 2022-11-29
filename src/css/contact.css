@@ -1,15 +1,5 @@
-#container {
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#info {
-    text-align: center;
+#info { 
     padding: 80px;
-    background-color: #E0E0E0;
 }
 
 #social {

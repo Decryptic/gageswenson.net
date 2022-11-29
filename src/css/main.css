@@ -10,3 +10,19 @@ body {
 .flex {
     display: flex;
 }
+
+.container {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgcolor {
+    background-color: #E0E0E0;
+}
+
+.center-text {
+    text-align: center;
+}
