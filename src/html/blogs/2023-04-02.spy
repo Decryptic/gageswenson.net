@@ -10,6 +10,12 @@
     <p>Godspeed &amp; bless you, dear reader.</p>
     <div class="center">
         <div class="center_img">
+            <a href="/img/blogs/2023-04-02/zoo.jpg">
+                <img src="/img/blogs/2023-04-02/zoo.jpg" width="400">
+            </a>
+        </div>
+        <div class="spacer"></div>
+        <div class="center_img">
             <a href="/img/blogs/2023-04-02/gym.jpg">
                 <img src="/img/blogs/2023-04-02/gym.jpg" width="400">
             </a>
@@ -18,12 +24,6 @@
         <div class="center_img">
             <a href="/img/blogs/2023-04-02/room.jpg">
                 <img src="/img/blogs/2023-04-02/room.jpg" width="400">
-            </a>
-        </div>
-        <div class="spacer"></div>
-        <div class="center_img">
-            <a href="/img/blogs/2023-04-02/zoo.jpg">
-                <img src="/img/blogs/2023-04-02/zoo.jpg" width="400">
             </a>
         </div>
     </div>
