@@ -19,6 +19,8 @@
                     <p><a href="/contact">Contact me</a> for more information.</p>
                 </div>
             </div>
+            <br>
+            <img src="/img/scuba.jpg" width="500">
         </center>
         << partials/scripts >>
     </body>
