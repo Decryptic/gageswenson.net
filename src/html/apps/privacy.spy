@@ -11,6 +11,7 @@
         <div id="container">
             <div id="info">
                 <p>My apps don't collect or sell your data.</p>
+                <p>For real, we don't aggregate your metadata and conspsire to consort it all out. All sessions exist there on the device, and expire there, without any breadcrumbs on the internet, outside social media.</p>
             </div>
         </div>
         << partials/scripts >>
