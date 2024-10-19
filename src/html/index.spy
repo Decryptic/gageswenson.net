@@ -9,14 +9,15 @@
             << partials/header >>
         </header>
         <center>
-            <h1>Swenson Computer Solutions LLC</h1>
+            <h1>Welcome</h1>
             <div class="container">
                 <div class="bgcolor" id="scs-block">
-                    <p>Broken screen? Does your phone need a new battery?</p>
-                    <p>Want to build a custom PC? Need an app built for your business?</p>
-                    <p>Swenson Computer Solutions LLC has you covered.</p>
-                    <p>I can fix phones, build apps, and teach you how to write software.</p>
-                    <p><a href="/contact">Contact me</a> for more information.</p>
+                    <p>Aloha and welcome to my personal website.</p>
+                    <br>
+                    <p>Follow the links above to explore.</p>
+                    <p>If you're not interested in my <a href="/blog">blog</a> or <a href="/apps">my apps</a>, then this is not the website you're looking for.</p>
+                    <br>
+                    <p><a href="https://youtu.be/dQw4w9WgXcQ?si=fHdvea2QzTLxP2Wx">Try this one instead.</a></p>
                 </div>
             </div>
             <br>
