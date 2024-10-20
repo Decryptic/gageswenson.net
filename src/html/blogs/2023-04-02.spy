@@ -5,25 +5,23 @@
     <p>It's been a while since I've made any changes to this website, so I figured I would do that today since I have so much downtime on my hands. I haven't made it quite as simple as a Facebook post to make changes to the site. I have to write code, push the changes to GitHub, then pull the code on my server. I like to keep it old fashioned.</p>
     <p>Things have been going really well for me lately. It's been over four months since I drank alcohol or otherwise abused any recreational drugs. Slowly but surely, it feels like I'm regaining my sanity and taking back control of my life.</p>
     <p>My living situation is finally stable and secure, all thanks to the help of my blessed mother, without whom I would surely still be stranded in life. Recently I bought a few surf boards, and slowly but surely I'm getting into the art &amp; sport of surfing. Today, she returns to Phoenix from her one week vacation in Egypt with her mother.</p>
-    <p>I was experiencing distress and void of respect in my work life, so I've decided to explore better employment opportunities on the island. Work was really getting in the way of my serenity, so I am more than content not working right now. I'm just looking for a work situation where I don't feel stuck and my work ethic taken for granted. I have a few things lined up, but my availability is pretty limited.</p>
-    <p>The two best things, rooting from the aforementioned, that I have going on in my life right now are: a stable & loving relationship with a woman, and my upcoming enrollment in the Fall 2023 Semester at UH Manoa. Finally I will be attaining my Bachelor's degree in computer science. Serendipitously, around that time, I should be completing the state-mandated drug and alcohol treatment program, so I'm really counting on my higher power to clear the path to my desired future. I will be doing my part by staying on the path: remaining clean and sober, abiding by the terms &amp; conditions, and staying in close contact with my support network.</p>
     <p>Godspeed &amp; bless you, dear reader.</p>
     <div class="center">
-        <div class="center_img">
+        <!--<div class="center_img">
             <a href="/img/blogs/2023-04-02/zoo.jpg">
                 <img src="/img/blogs/2023-04-02/zoo.jpg" width="400">
             </a>
         </div>
-        <div class="spacer"></div>
+        <div class="spacer"></div>-->
         <div class="center_img">
             <a href="/img/blogs/2023-04-02/gym.jpg">
-                <img src="/img/blogs/2023-04-02/gym.jpg" width="400">
+                <img src="/img/blogs/2023-04-02/gym.jpg" width="500">
             </a>
         </div>
         <div class="spacer"></div>
         <div class="center_img">
             <a href="/img/blogs/2023-04-02/room.jpg">
-                <img src="/img/blogs/2023-04-02/room.jpg" width="400">
+                <img src="/img/blogs/2023-04-02/room.jpg" width="500">
             </a>
         </div>
     </div>

@@ -22,7 +22,9 @@
             <div id="social">
                 <a href="https://www.facebook.com/gage.swenson.3/"><img src="/img/social/facebook.png"></a>
                 <a href="https://www.instagram.com/cofcgage/"><img src="/img/social/instagram.png"></a>
-                <a href="https://twitter.com/GageSwenson"><img src="/img/social/twitter.png"></a>
+                <a href="https://youtube.com/@manoaadventures"><img src="/img/social/youtube.png"></a>
+                <!--<a href="https://twitter.com/GageSwenson"><img src="/img/social/twitter.png"></a>-->
+                <a href="https://x.com/GageSwenson"><img src="/img/social/x.png"></a>
                 <a href="https://www.linkedin.com/in/gageswenson/"><img src="/img/social/linkedin.png"></a>
                 <a href="#" onclick="reveal_gmail(this);"><img src="/img/social/gmail.png"></a>
                 <a href="https://github.com/decryptic"><img src="/img/social/github.png"></a>
