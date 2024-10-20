@@ -9,10 +9,10 @@
             << partials/header >>
         </header>
         <center>
-            <h1>Welcome</h1>
+            <h1>E Komo Mai</h1>
             <div class="container">
                 <div class="bgcolor" id="scs-block">
-                    <p>Aloha and welcome to my personal website.</p>
+                    <p>Welcome to my personal website, forged from the fires of Mordor.</p>
                     <br>
                     <p>Follow the links above to explore.</p>
                     <br>
@@ -21,6 +21,8 @@
                     <p><a href="https://youtu.be/dQw4w9WgXcQ?si=fHdvea2QzTLxP2Wx">Try this one instead.</a></p>
                 </div>
             </div>
+            <br>
+            <h1 id="adieu">A Hui Hou</h1>
             <br>
             <img src="/img/scuba.jpg" width="500">
         </center>

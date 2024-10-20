@@ -8,6 +8,7 @@
         <header>
             << partials/header >>
         </header>
+        << blogs/2024-10-19 >>
         << blogs/2023-04-02 >>
         << blogs/2022-07-19 >>
         << blogs/2022-07-10 >>
